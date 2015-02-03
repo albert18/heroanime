@@ -1,0 +1,26 @@
+p{
+	color:#6F42B2;
+
+}
+h4{
+	color:blue;
+}
+body{
+
+     background-image: url("http://fc05.deviantart.net/fs47/f/2009/203/d/7/Saiyans_at_end_of_DBZ_by_Gothax.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center; 
+ } 
+p.bleach{
+
+	font-family: fantasy;
+	font-size: 40px;
+	float:left;
+	margin: 20px;
+	text-decoration: underline;
+}
+p a {
+	color: red;
+}
+

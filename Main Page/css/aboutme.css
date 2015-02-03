@@ -1,0 +1,25 @@
+b {
+	color: red;
+	font-size: 50;
+	text-decoration:underline;
+}
+img.center{
+	height: 200px;
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	display:inline;
+	float: right;
+}
+img{
+	height: 600px;
+	border: groove;
+	border-collapse:separate;
+}
+body {
+	background-image:url("https://www.thepixelstack.com/moderator/photo.php?width=900&image=/moderator/uploads/742820130329191624.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-color:white;
+}

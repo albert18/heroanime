@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="css/aboutme.css">
+</head>
+<body>
+
+<img class="center" src="http://blog.rimazrauf.com/wp-content/uploads/2013/10/Carousel_Web_Developer.png"/>
+
+<p>Hi my name is Albert,Im a Junior Software/web developer.Im currently enrolled at the college and taking my Degree in Computer Information Technology.</p>
+ <p>Ive also taken some Workshop courses at the <a href="http://www.codecademy.com/"><b>Code Academy</b></a>,<a href="https://www.codeschool.com/"><b>CodeSchool</b></a> online and <a href="https://generalassemb.ly/"><b>General Assembly Code of Academy</b></a> in New York.</p>
+
+ <p>I am getting fairly proficient with .net,php,jquery,Java and some ruby, know the basics of JavaScript, HTML and CSS.I learn quickly and work hard.</p>
+
+ <img src="img/IMG_0155.JPG"/>
+
+<script src="aboutme.js"></script>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["name"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}	
+</script>
+
+
+<p>Thank you for visiting my website!</p>
+<img style="height:100px;  "src="http://cdn2.hellogiggles.com/wp-content/uploads/2013/07/05/Have-a-great-day-Lily-lilyz-16522988-500-375.jpg"/>
+
+<p><strong>For more questions just email me..</strong></p>
+
+<form name="myForm" action="demo_form.asp" onsubmit="return validateForm();" method="post">
+Email: <input type="text" name="email">
+<input type="submit" value="Submit">
+</form>	
+
+<a href="mainpage.html">HOME</a>
+<style>
+a {
+	font-size: 30px;
+	text-decoration: underline;
+	color:red;
+}
+</style>
+<FORM> <INPUT TYPE="Button" VALUE="Previous Page" onClick="history.go(-1)"> </FORM> 
+
+<div class="copy">
+    Copyright &copy; <span id="currentDate"></span> (www.HeroAnime.net). All rights reserved.
+</div>
+<script type="text/javascript">
+document.getElementById("currentDate").innerHTML = (new Date()).getFullYear();
+</script>
+
+
+<style>
+    div.copy {
+        text-align: center;
+        color:red;
+    }
+
+
+
+</body>
+</html>

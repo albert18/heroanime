@@ -1,0 +1,107 @@
+<DOCTYPE HTML>
+<html>
+<head>
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!-- Standard button -->
+<button type="button" class="btn btn-default">Home</button>
+
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary">Videos</button>
+
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn btn-success">Gifts</button>
+
+<!-- Contextual button for informational alert messages -->
+<button type="button" class="btn btn-info">Info</button>
+
+<!-- Indicates caution should be taken with this action -->
+<button type="button" class="btn btn-warning">Travel</button>
+
+<!-- Indicates a dangerous or potentially negative action -->
+<button type="button" class="btn btn-danger">Danger</button>
+
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn btn-link">Link</button>
+
+
+	<style>
+	body {
+		background-color: gray;
+	}
+	</style>
+	<form onsubmit="return checkForm();" method="post" action="mailto:caps18@hotmail.com">
+  <div class="contact_name">
+    <span class="contact_label">Name:*</span>
+    <input type="text" id="name" /><br />
+    <div class="error" id="nameError">Required: Please enter your name<br /></div>
+  </div> <!-- .contact_name ends -->
+ 
+  <div class="contact_email">
+    <span class="contact_label">Email:*</span>
+    <input type="text" id="email" /><br />
+    <div class="error" id="emailError">Required: Please enter your email address<br /></div>
+  </div> <!-- .contact_email ends -->
+ 
+  <div class="contact_comment">
+    <span class="contact_label">Message:*</span>
+    <textarea id="comment" rows="10" cols="35"></textarea>
+    <div class="error" id="commentError">Required: Please enter a message<br /></div>
+  </div> <!-- .contact_comment ends -->
+ 
+  <div class="contact_submit">
+    <input type='submit' value='Submit' />
+  </div> <!-- .contact_submit ends -->
+  <p><span class="contact_nb">NB: * Donotes required field</span></p>
+</form>
+<FORM> <INPUT TYPE="Button" VALUE="Previous Page" onClick="history.go(-1)"> </FORM> 
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+<div class="copy">
+  Copyright &copy; <span id="currentDate"></span> (www.HeroAnime.net). All rights reserved.
+</div>
+<script type="text/javascript">
+document.getElementById("currentDate").innerHTML = (new Date()).getFullYear();
+</script>
+
+
+<style>
+  div.copy {
+    text-align: center;
+    color:black;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
