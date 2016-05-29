@@ -1,0 +1,56 @@
+body {
+	background-color: ;
+}
+/*nav bar*/
+.navbar-default {
+  background-image: url("http://www.hdwallpapersnew.net/wp-content/uploads/2015/08/awesome-bleach-widescreen-high-definition-wallpaper-download-pictures-free.jpg");
+	background-repeat: no-repeat;
+	border-color: red;
+	padding: 60px;
+}
+.nav>li  {
+	
+	padding:25px;
+	font-size: 30px;
+	font-family: Impact, Charcoal, sans-serif;	
+	text-shadow: 2px 2px 9px #FF0000;
+}
+
+.navbar-default .navbar-brand {
+	color:black;
+	font-size: 70px;
+	font-family: Impact, Charcoal, sans-serif;	
+	text-shadow: 2px 2px 9px #FF0000;
+	text-decoration: underline;
+
+}
+/*Nav Bar toggle*/
+.navbar-default .navbar-toggle {
+	border-color:#F12B24;
+}
+/*A:hover Color */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: black;
+}
+
+h2 {
+	font-size: 80px;
+	font-family: Impact, Charcoal, sans-serif;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	 text-shadow: 2px 2px 9px #FF0000;
+}
+/*First Review*/
+.review1 {
+	font-weight: bold;
+	font-size: 25px;
+} 
+.review1-1 {
+	background-color: yellow;S
+}
+
+
+/*copyright*/ 
+.copyright {
+	font-size: 20px;
+}

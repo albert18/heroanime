@@ -1,0 +1,54 @@
+body{
+
+     background-image: url("http://fc05.deviantart.net/fs47/f/2009/203/d/7/Saiyans_at_end_of_DBZ_by_Gothax.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center; 
+ }
+ .dropdown {
+    padding:40px;
+ }
+ /*heading all h1*/
+h1 {
+    color:red;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+article {
+    border:2px solid #33334d;
+    color:#ff1a1a;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: bold;
+    font-size: 20px;
+}
+
+  /*DROPDOWN*/
+.dropdown .btn-default{
+    font-size: 40px;
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: gray;
+    border:3px solid #000000;
+}
+.btn-default:hover {
+    color:#BC1A1A;
+}
+
+/*anime drop down*/
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+       background-color: black;
+}
+.btn-primary {
+    font-size: 30px;
+    font-family: Impact, Charcoal, sans-serif;  
+    text-shadow: 2px 2px 9px #FF0000;
+    background-color: black;
+} 
+.btn-primary:hover {
+    background-color: rgba(255, 255, 255, 1.5);
+}
+
+
+
