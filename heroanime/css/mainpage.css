@@ -1,12 +1,15 @@
-body {
-	background-color: ;
+body {	
+background: #8E0E00; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #8E0E00 , #1F1C18); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #8E0E00 , #1F1C18); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /*nav bar*/
 .navbar-default {
   background-image: url("http://www.hdwallpapersnew.net/wp-content/uploads/2015/08/awesome-bleach-widescreen-high-definition-wallpaper-download-pictures-free.jpg");
 	background-repeat: no-repeat;
 	border-color: red;
-	padding: 60px;
+	padding: 0px 0px 30px 0px;
+	
 }
 .nav>li  {
 	
@@ -22,8 +25,10 @@ body {
 	font-family: Impact, Charcoal, sans-serif;	
 	text-shadow: 2px 2px 9px #FF0000;
 	text-decoration: underline;
+	margin: 25px 0px 25px 0px;
 
 }
+
 /*Nav Bar toggle*/
 .navbar-default .navbar-toggle {
 	border-color:#F12B24;
@@ -38,19 +43,67 @@ h2 {
 	font-family: Impact, Charcoal, sans-serif;
 	padding-bottom: 30px;
 	padding-top: 30px;
-	 text-shadow: 2px 2px 9px #FF0000;
+	text-shadow: 2px 2px 9px #FF0000;
 }
+
+h3 {
+	text-shadow: 2px 2px 9px #FF0000;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+/*Carousal*/
+
+#carousel-example-generic {
+	width: 70%;
+	margin: 0 auto;
+	border:1px solid #FF0000;	
+}
+
+hr {
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+
+
 /*First Review*/
 .review1 {
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 15px;
 } 
+
 .review1-1 {
-	background-color: yellow;S
+	background-color: yellow;
+	width:40%;
 }
 
+/*FOOTER*/
 
-/*copyright*/ 
+.footer {
+	margin: 25px 0px 0px 0px;
+	background-color: #e0e0eb;
+	height: 200px
+
+}
+
+/*SOCIAL MEDIA*/
+.follow {
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px
+}
+.fa-facebook-square, .fa-twitter-square, .fa-google-plus-square {
+	color:red;
+	margin: 15px;
+	font-size: 50px;
+	opacity: 1.5em
+}
+
+/*COPYRIGHT*/ 
+
 .copyright {
 	font-size: 20px;
 }
+
